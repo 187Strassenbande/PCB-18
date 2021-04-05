@@ -1,0 +1,9 @@
+Manufacturer=ALPS
+PartNumber=RS6011Y1600Q
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2020-07-30 10:32:52
+Downloaded=2021-04-05 20:44:14
+3D=Y

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RS6011Y1600Q"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RS6011Y1600Q")
+        (spec "default")
+    )
+)

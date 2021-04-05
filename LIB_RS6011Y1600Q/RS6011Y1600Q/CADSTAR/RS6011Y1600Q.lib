@@ -1,0 +1,19 @@
+.RS6011Y1600Q :1 ;Slide Potentiometers 10 KOhms 20% THROUGH HOLE
+RS6011Y1600Q
+*STM VR
+*NGS
+*PNM 1=1 2=2 3=3 4=L1 5=L2 6=L3
+*PLB 1="CCW_1" 2="WIPER_1" 3="CW_1" 4="CCW_2" 5="WIPER_2" 6="CW_2"
+*MXP 6
+*DFN RS6011Y1600Q
+~!Manufacturer_Name (ALPS)
+~!Manufacturer_Part_Number (RS6011Y1600Q)
+~!Mouser Part Number (688-RS6011Y1600Q)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=688-RS6011Y1600Q)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/RS6011Y1600Q.pdf)
+~!Height (22mm)
+~!3D_Model (RS6011Y1600Q)
+RS6011Y1600Q
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

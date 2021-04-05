@@ -1,0 +1,195 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RS6011Y1600Q"
+   (description "Slide Potentiometers 10 KOhms 20% THROUGH HOLE")
+   (family "ANA")
+   (package "RS6011Y1600Q")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/RS6011Y1600Q.pdf")
+   (attribute "Geometry.Height" "22mm")
+   (attribute "Manufacturer_Name" "ALPS")
+   (attribute "Manufacturer_Part_Number" "RS6011Y1600Q")
+   (attribute "Mouser Part Number" "688-RS6011Y1600Q")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=688-RS6011Y1600Q")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RS6011Y1600Q")
+    (pin "CCW_1" 1 PS)
+    (pin "WIPER_1" 2 PS)
+    (pin "CW_1" 3 PS)
+    (pin "CCW_2" L1 PS)
+    (pin "WIPER_2" L2 PS)
+    (pin "CW_2" L3 PS)
+   )
+  )
+  (symbol "RS6011Y1600Q"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RS6011Y1600Q"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 -5.75)
+      (pt 72.5 -5.75)
+      (pt 72.5 3.25)
+      (pt -2.5 3.25)
+      (pt -2.5 -5.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 -5.75)
+      (pt -2.5 -5.75)
+      (pt -2.5 -5.75)
+      (pt -1.25 -5.75)
+      (pt -1.25 -5.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 -5.75)
+      (pt -2.5 -5.75)
+      (pt -2.5 3.25)
+      (pt -2.5 3.25)
+      (pt -2.5 -5.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 3.25)
+      (pt -1.25 3.25)
+      (pt -1.25 3.25)
+      (pt -2.5 3.25)
+      (pt -2.5 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.25 3.25)
+      (pt 72.5 3.25)
+      (pt 72.5 3.25)
+      (pt 1.25 3.25)
+      (pt 1.25 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 72.5 3.25)
+      (pt 72.5 3.25)
+      (pt 72.5 -5.75)
+      (pt 72.5 -5.75)
+      (pt 72.5 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 72.5 -5.75)
+      (pt 71.25 -5.75)
+      (pt 71.25 -5.75)
+      (pt 72.5 -5.75)
+      (pt 72.5 -5.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 68.75 -5.75)
+      (pt 1.25 -5.75)
+      (pt 1.25 -5.75)
+      (pt 68.75 -5.75)
+      (pt 68.75 -5.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.3 4.325)
+      (pt 73.5 4.325)
+      (pt 73.5 -6.825)
+      (pt -4.3 -6.825)
+      (pt -4.3 4.325))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.3 0)
+      (arc (pt -3.300 0.000) (pt -3.300 -0.050) (pt -3.200 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.2 0)
+      (arc (pt -3.200 0.000) (pt -3.300 -0.050) (pt -3.200 0.050) (start 180.0) (sweep .0))
+      (pt -3.3 0)
+      (arc (pt -3.300 0.000) (pt -3.300 -0.050) (pt -3.200 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.2 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 2.500) (padstack 0))
+   (leg 3 (pt 70.000 0.000) (padstack 0))
+   (leg L1 (pt 0.000 -2.500) (padstack 0))
+   (leg L2 (pt 0.000 -5.000) (padstack 0))
+   (leg L3 (pt 70.000 -5.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (model "RS6011Y1600Q.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

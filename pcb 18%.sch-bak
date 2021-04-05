@@ -642,4 +642,58 @@ F 3 "" H 8025 4125 60  0001 C CNN
 	1    8650 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 USB_jst_connector
+U 1 1 606B8913
+P 1550 4900
+F 0 "USB_jst_connector" H 1630 4892 50  0000 L CNN
+F 1 "Conn_01x04" H 1630 4801 50  0000 L CNN
+F 2 "" H 1550 4900 50  0001 C CNN
+F 3 "~" H 1550 4900 50  0001 C CNN
+	1    1550 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 4900 0    50   Input ~ 0
+D+
+Text GLabel 1350 5000 0    50   Input ~ 0
+D-
+$Comp
+L power:GND #PWR?
+U 1 1 606BFBE6
+P 1250 5100
+F 0 "#PWR?" H 1250 4850 50  0001 C CNN
+F 1 "GND" H 1255 4927 50  0000 C CNN
+F 2 "" H 1250 5100 50  0001 C CNN
+F 3 "" H 1250 5100 50  0001 C CNN
+	1    1250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5100 1250 5100
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 606C28AC
+P 1150 4800
+F 0 "F?" V 945 4800 50  0000 C CNN
+F 1 "Polyfuse_Small" V 1036 4800 50  0000 C CNN
+F 2 "" H 1200 4600 50  0001 L CNN
+F 3 "~" H 1150 4800 50  0001 C CNN
+	1    1150 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606C4E76
+P 700 4800
+F 0 "#PWR?" H 700 4650 50  0001 C CNN
+F 1 "+5V" H 715 4973 50  0000 C CNN
+F 2 "" H 700 4800 50  0001 C CNN
+F 3 "" H 700 4800 50  0001 C CNN
+	1    700  4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4800 1050 4800
+Wire Wire Line
+	1250 4800 1350 4800
 $EndSCHEMATC
